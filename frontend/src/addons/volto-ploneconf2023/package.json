@@ -42,16 +42,18 @@
     "stylelint-prettier": "4.0.2"
   },
   "peerDependencies": {
-    "@plone/volto": "^17.0.0"
+    "@plone/volto": "^17.0.1"
   },
   "addons": [
     "@eeacms/volto-accordion-block",
     "@kitconcept/volto-slider-block",
-    "@eeacms/volto-matomo"
+    "@eeacms/volto-matomo",
+    "@plonegovbr/volto-code-block"
   ],
   "dependencies": {
     "@eeacms/volto-accordion-block": "*",
     "@eeacms/volto-matomo": "*",
-    "@kitconcept/volto-slider-block": "*"
+    "@kitconcept/volto-slider-block": "*",
+    "@plonegovbr/volto-code-block": "*"
   }
 }
